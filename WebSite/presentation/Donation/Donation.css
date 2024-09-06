@@ -1,0 +1,188 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f97b7b;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero p {
+    font-style: italic;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    font-family: 'Cursive', serif;
+}
+
+.thoughts {
+    text-align: center;
+    padding: 20px;
+}
+
+.thoughts-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.donation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.qr-container {
+    margin-bottom: 20px;
+}
+
+.qr-container img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.qr-container p {
+    font-size: 18px;
+}
+
+.pay-now-container {
+    text-align: center;
+}
+
+.pay-now {
+    background-color: #BDBDBD;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pay-now:hover {
+    background-color: #9E9E9E;
+}
+
+.board-of-glory {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.board-of-glory h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.board-item {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .thoughts-box {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .donation {
+        flex-direction: column;
+    }
+
+    .board-item {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.2em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .pay-now {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+
+    .board-item {
+        width: 120px;
+        height: 120px;
+    }
+}

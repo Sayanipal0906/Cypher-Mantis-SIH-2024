@@ -9,30 +9,74 @@
 <body>
     <div class="form-container">
         <div class="circle-icon"></div>
-        <h2>Unlimited free access to our resourses</h2>
-        <h3>Enter Your Schooling details</h3>
+        <h2>Enter Your GPA or Percentage</h2>
+        <h3>Select your heighest Degree of qualification</h3>
+<div class="menu">
+  <div class="item">
+    <a href="#" class="link">
+      <span> Options </span>
+      <svg viewBox="0 0 360 360" xml:space="preserve">
+        <g id="SVGRepo_iconCarrier">
+          <path
+            id="XMLID_225_"
+            d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+          ></path>
+        </g>
+      </svg>
+    </a>
+    <div class="submenu">
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Development </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Design </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> Marketing </a>
+      </div>
+      <div class="submenu-item">
+        <a href="#" class="submenu-link"> SEO </a>
+      </div>
+    </div>
+  </div>
+</div>
+
         <form id="schooling-form">
-            <div class="input-group">
-                <input type="text" id="school-name" name="school-name" placeholder="Enter School Name" required>
+            <div class="form-control">
+                <input type="number" id="year-class-10" name="year-class-10" required="">
+                <label>
+                    <span style="transition-delay:0ms">C</span><span style="transition-delay:50ms">l</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">s</span><span style="transition-delay:250ms"> </span><span style="transition-delay:300ms">1</span><span style="transition-delay:350ms">0</span>
+                </label>
             </div>
-            <div class="input-row">
-                <input type="number" id="year-class-10" name="year-class-10" placeholder="Year Of Passing Class 10" required>
-                <input type="number" id="percentage-class-10" name="percentage-class-10" placeholder="Percentage Accrued" required>
+            
+            <div class="form-control">
+                <input type="number" id="year-class-12" name="year-class-12" required="">
+                <label>
+                    <span style="transition-delay:0ms">C</span><span style="transition-delay:50ms">l</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">s</span><span style="transition-delay:250ms"> </span><span style="transition-delay:300ms">1</span><span style="transition-delay:350ms">2</span>
+                </label>
             </div>
-            <div class="input-row">
-                <input type="number" id="year-class-12" name="year-class-12" placeholder="Year Of Passing Class 12" required>
-                <input type="number" id="percentage-class-12" name="percentage-class-12" placeholder="Percentage Accrued" required>
+            
+            <div class="form-control">
+                <input type="number" id="Graduation" name="Graduation" required="">
+                <label>
+                    <span style="transition-delay:0ms">G</span><span style="transition-delay:50ms">r</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">d</span><span style="transition-delay:200ms">u</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">t</span><span style="transition-delay:350ms">i</span><span style="transition-delay:400ms">o</span><span style="transition-delay:450ms">n</span>
+                </label>
             </div>
-            <div class="input-row">
-                <input type="number" id="year-graduation" name="year-graduation" placeholder="Year Of Graduation" required>
-                <input type="number" id="percentage-graduation" name="percentage-graduation" placeholder="Percentage Accrued" required>
-            </div>
-            <div class="input-row">
-                <input type="number" id="year-degree" name="year-degree" placeholder="Year Of Passing Degree" required>
-                <input type="text" id="degree-name" name="degree-name" placeholder="Enter Degree Name" required>
-                <input type="number" id="percentage-degree" name="percentage-degree" placeholder="Percentage Accrued" required>
-            </div>
-            <button type="submit" class="submit-button">Submit</button>
+
+            <button type = "submit" class="animated-button">
+                <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+                <span class="text">Submit</span>
+                <span class="circle"></span>
+                <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+              </button>
         </form>
     </div>
 </body>

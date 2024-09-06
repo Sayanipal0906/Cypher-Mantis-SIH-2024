@@ -1,0 +1,25 @@
+/* Add your CSS styles here */
+.chat-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+}
+.chat-input {
+    display: flex;
+}
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+}
+.chat-input button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
